@@ -1,0 +1,5 @@
+- name: Running OpenAPI Spec diff action
+  uses: oasdiff/oasdiff-action/diff@main
+  with:
+    base: 'specs/base.yaml'
+    revision: 'specs/revision.yaml'
